@@ -1,0 +1,26 @@
+{
+  "name": "ledgerwallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^24.2.0"
+  },
+  "dependencies": {
+    "@ledgerhq/hw-app-btc": "^10.0.2",
+    "@ledgerhq/hw-app-eth": "^6.33.2",
+    "@ledgerhq/hw-transport": "^6.28.3",
+    "@ledgerhq/hw-transport-node-hid": "^6.27.14",
+    "@ledgerhq/logs": "^6.10.1",
+    "babel-polyfill": "^6.26.0",
+    "browserify": "^17.0.0",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "stream": "^0.0.2",
+    "usb": "^2.9.0"
+  }
+}
